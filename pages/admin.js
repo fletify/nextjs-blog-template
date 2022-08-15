@@ -16,7 +16,6 @@ export default function Home() {
         <meta name="theme-color" content="#7289da"/>
         <meta name="main-color" content="#7289da"/>
         <link rel="shortcut icon" href="https://media.discordapp.net/attachments/972539143794077696/993904710933303367/20220705_211156.png?width=498&height=498" type="image/x-icon"/>
-        <link rel="stylesheet" href="/styles/blog.css"/>
       </Head>
       <main>
            <div class="center">
