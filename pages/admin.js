@@ -23,8 +23,8 @@ export default function Home() {
               <section>
                  <hr/>
                     <form action="/api/create" method="post">
-                      <input type="text" placeholder="Blog Title" name="title" maxlength="100" required />
-                      <input type="text" placeholder="Blog Tags (comma separated)" name="tags" maxlength="50" />
+                      <input type="text" placeholder="Blog Title" name="title" maxLength="100" required />
+                      <input type="text" placeholder="Blog Tags (comma separated)" name="tags" maxLength="50" />
                       <textarea placeholder="Blog Description. You can use HTML." name="body" required></textarea>
                       <input type="password" placeholder="Authentication Password" name="password" required />
                       <button type="submit">Create Blog!</button>
