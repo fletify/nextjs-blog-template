@@ -4,7 +4,7 @@ export default function handler(req, res) {
     if(req.method !== "POST") return;
     const { title, body, tags, password } = req.body;
     if(!title||!body||!password) return res.status(200).json({ error: "Required parameters are missing" });
-    if(password !== "1234") return res.status(401).json({ error: "Unauthorized" });
+    if(password !== process.env.PASS) return res.status(401).json({ error: "Unauthorized" });
     const html = 
     `<!DOCTYPE html>
     <html lang="en">
