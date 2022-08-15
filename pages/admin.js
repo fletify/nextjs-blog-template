@@ -18,7 +18,7 @@ export default function Home() {
         <link rel="shortcut icon" href="https://media.discordapp.net/attachments/972539143794077696/993904710933303367/20220705_211156.png?width=498&height=498" type="image/x-icon"/>
       </Head>
       <main>
-           <div class="center">
+           <div className="center">
               <h1>Create a New Blog!</h1>
               <section>
                  <hr/>
